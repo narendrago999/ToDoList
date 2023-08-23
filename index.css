@@ -1,0 +1,74 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    border-left: 1px solid blue;
+    padding: 2rem 0 0 2rem;
+}
+.user-input{
+    display: flex;
+}
+.user-input input, .user-input button{
+    border: 1px solid blue;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    outline: none;
+}
+.user-input button{
+    background-color: blue;
+    color: white;
+    margin-left:2rem;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    
+}
+.list p{
+    border: 1px solid blue;
+    padding: 0.3rem 1rem;
+    width: 25vw;
+    border-radius: 4px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.list p::-webkit-scrollbar{
+    width: 0;
+}
+.list select{
+    padding: 0.3rem 1rem;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:4px ;
+}
+.list button{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+}
+.search input{
+    padding: 0.3rem 0.6rem;
+    width: 30vw;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+.dis{
+    display: none;
+}
+.d{
+    display: block;
+}
